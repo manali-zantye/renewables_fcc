@@ -1,0 +1,310 @@
+,State,Plant,County,Latitude,Longitude,Nameplate capacity (MW),Balancing Authority,Emission intensity (ton/MWh)
+0,AK,Aurora Energy LLC Chena,Fairbanks North Star,64.847743,-147.735063,31.3,Alaska Miscellaneous,0.976335
+1,AK,Eielson AFB Central Heat & Power Plant,Fairbanks North Star,64.67141,-147.075988,33.5,Alaska Miscellaneous,0.594185
+2,AK,Healy,Denali,63.8542,-148.95,92.8,Alaska Miscellaneous,1.520815
+3,AK,University of Alaska Fairbanks,Fairbanks North Star,64.854171,-147.822075,39.6,Alaska Miscellaneous,0.59442
+4,AK,Utility Plants Section,Fairbanks North Star,64.825601,-147.648627,22.5,Alaska Miscellaneous,0.66149
+5,AL,Barry,Mobile,31.0069,-88.0103,2841.5,"Southern Company Services, Inc. - Trans",0.766955
+6,AL,Charles R Lowman,Washington,31.488019,-87.910747,538,PowerSouth Energy Cooperative,1.165525
+7,AL,E C Gaston,Shelby,33.244211,-86.458056,2034,"Southern Company Services, Inc. - Trans",0.931475
+8,AL,Gorgas,Walker,33.644344,-87.196486,1416.7,"Southern Company Services, Inc. - Trans",1.132025
+9,AL,James H Miller Jr,Jefferson,33.6319,-87.0597,2822,"Southern Company Services, Inc. - Trans",1.099895
+10,AR,Flint Creek Power Plant,Benton,36.2561,-94.5241,558,Southwest Power Pool,1.106515
+11,AR,Independence,Independence,35.678442,-91.408761,1800,"Midcontinent Independent Transmission System Operator, Inc..",1.0933
+12,AR,John W. Turk Jr. Power Plant,Hempstead,33.649722,-93.811944,609,Southwest Power Pool,0.992265
+13,AR,Plum Point Energy Station,Mississippi,35.6644,-89.9489,720,"Midcontinent Independent Transmission System Operator, Inc..",1.090285
+14,AR,White Bluff,Jefferson,34.4228,-92.1406,1800,"Midcontinent Independent Transmission System Operator, Inc..",1.1211
+15,AZ,Cholla,Navajo,34.9394,-110.3033,1128.8,Arizona Public Service Company,1.23533
+16,AZ,Coronado Generating Station,Apache,34.5789,-109.2708,821.8,Salt River Project,1.27414
+17,AZ,Navajo Generating Station,Coconino,36.9047,-111.3886,2409.3,Salt River Project,1.172545
+18,AZ,Springerville Generating Station,Apache,34.3186,-109.1639,2179.2,Tucson Electric Power Company,1.079675
+19,CA,Argus Cogen Plant,San Bernardino,35.765,-117.3833,62.5,California Independent System Operator,0.57429
+20,CO,Comanche (470),Pueblo,38.2081,-104.5747,1635.3,Western Area Power Administration - Rocky Mountain Region,1.04671
+21,CO,Craig,Moffat,40.4627,-107.5912,1427.6,Western Area Power Administration - Rocky Mountain Region,1.13755
+22,CO,Hayden,Routt,40.4856,-107.185,465.4,Public Service Company of Colorado,1.17405
+23,CO,Martin Drake,El Paso,38.824444,-104.833333,257.3,Western Area Power Administration - Rocky Mountain Region,1.276585
+24,CO,Nucla,Montrose,38.2383,-108.5069,113.8,Western Area Power Administration - Rocky Mountain Region,1.627665
+25,CO,Pawnee,Morgan,40.2217,-103.6803,552.3,Public Service Company of Colorado,1.22181
+26,CO,Rawhide Energy Station,Larimer,40.860905,-105.021207,800.4,Public Service Company of Colorado,1.02459
+27,CO,Ray D Nixon,El Paso,38.633451,-104.70577,282.6,Western Area Power Administration - Rocky Mountain Region,1.008965
+28,CO,Western Sugar Coop- Ft Morgan,Morgan,40.263,-103.8069,3,Public Service Company of Colorado,0.6031
+29,CT,Bridgeport Harbor Station,Fairfield,41.1706,-73.1844,1157.9,ISO New England Inc.,1.181695
+30,DE,Indian River,Sussex,38.5857,-75.2341,804.1,"PJM Interconnection, LLC",1.123585
+31,FL,Big Bend,Hillsborough,27.7944,-82.4036,2862.9,Tampa Electric Company,1.09007
+32,FL,C D McIntosh Jr Power Plant,Polk,28.0801,-81.9229,1416.9,Florida Municipal Power Pool,0.723685
+33,FL,Crist Electric Generating Plant,Escambia,30.5661,-87.2244,1228.8,"Southern Company Services, Inc. - Trans",1.061555
+34,FL,Crystal River,Citrus,28.9656,-82.6977,5303.7,Progress Energy Florida,1.06455
+35,FL,Curtis H. Stanton Energy Center,Orange,28.4822,-81.1678,1262,Florida Municipal Power Pool,0.87747
+36,FL,Deerhaven,Alachua,29.7592,-82.3878,471,Gainesville Regional Utilities,1.102925
+37,FL,"Indiantown Cogeneration, LP",Martin,27.0389,-80.5125,395.4,Florida Power & Light Company,0.841705
+38,FL,Northside,Duval,30.4172,-81.5525,1407.1,JEA,1.02008
+39,FL,Seminole (136),Putnam,29.733056,-81.632778,2321.8,Seminole Electric Cooperative,1.0583
+40,GA,Bowen,Bartow,34.1256,-84.9222,3540.4,"Southern Company Services, Inc. - Trans",1.07744
+41,GA,Hammond,Floyd,34.2528,-85.3456,953,"Southern Company Services, Inc. - Trans",1.50957
+42,GA,McIntosh (6124),Effingham,32.356287,-81.168347,988,"Southern Company Services, Inc. - Trans",1.32244
+43,GA,Scherer,Monroe,33.0606,-83.8075,3564,"Southern Company Services, Inc. - Trans",1.18407
+44,GA,Wansley (6052),Heard,33.41342,-85.032329,1956.8,"Southern Company Services, Inc. - Trans",1.185015
+45,HI,AES Hawaii,Honolulu,21.303419,-158.106528,203,Hawaiian Electric Co Inc,1.16903
+46,IA,Archer Daniels Midland Cedar Rapids,Linn,41.9221,-91.6875,294.6,"Midcontinent Independent Transmission System Operator, Inc..",0.54726
+47,IA,Archer Daniels Midland Clinton,Clinton,41.8206,-90.2097,211.4,"Midcontinent Independent Transmission System Operator, Inc..",0.603045
+48,IA,Archer Daniels Midland Des Moines,Polk,41.624438,-93.584515,7.9,"Midcontinent Independent Transmission System Operator, Inc..",0.617025
+49,IA,Burlington (IA),Des Moines,40.7412,-91.116667,290.8,"Midcontinent Independent Transmission System Operator, Inc..",1.17769
+50,IA,George Neal North,Woodbury,42.299794,-96.361707,1080.3,"Midcontinent Independent Transmission System Operator, Inc..",1.16502
+51,IA,George Neal South,Woodbury,42.3006,-96.3617,695.9,"Midcontinent Independent Transmission System Operator, Inc..",1.010435
+52,IA,Iowa State University,Story,42.0275,-93.6394,49,"Midcontinent Independent Transmission System Operator, Inc..",0.46245
+53,IA,Lansing,Allamakee,43.3359,-91.1675,340.5,"Midcontinent Independent Transmission System Operator, Inc..",1.30278
+54,IA,Louisa,Louisa,41.3181,-91.0931,811.9,"Midcontinent Independent Transmission System Operator, Inc..",1.111955
+55,IA,Muscatine,Muscatine,41.3917,-91.0569,293.5,"Midcontinent Independent Transmission System Operator, Inc..",0.61783
+56,IA,Ottumwa,Wapello,41.0961,-92.555833,725.9,"Midcontinent Independent Transmission System Operator, Inc..",1.18393
+57,IA,Prairie Creek,Linn,41.944039,-91.639167,236.4,"Midcontinent Independent Transmission System Operator, Inc..",0.94933
+58,IA,University of Iowa Main Power Plant,Johnson,41.6572,-91.54,46.5,"Midcontinent Independent Transmission System Operator, Inc..",0.263415
+59,IA,Walter Scott Jr. Energy Center,Pottawattamie,41.18,-95.8408,1778.9,"Midcontinent Independent Transmission System Operator, Inc..",1.05242
+60,IL,Archer Daniels Midland Co.,Macon,39.870074,-88.890756,335,"Midcontinent Independent Transmission System Operator, Inc..",0.545795
+61,IL,Baldwin Energy Complex,Randolph,38.205,-89.8544,1894.1,"Midcontinent Independent Transmission System Operator, Inc..",1.083345
+62,IL,Coffeen,Montgomery,39.0586,-89.4031,1005.4,"Midcontinent Independent Transmission System Operator, Inc..",1.152875
+63,IL,Dallman,Sangamon,39.754803,-89.602389,617.8,"Midcontinent Independent Transmission System Operator, Inc..",1.25986
+64,IL,Duck Creek,Fulton,40.4663,-89.9841,441,"Midcontinent Independent Transmission System Operator, Inc..",1.077445
+65,IL,E D Edwards,Peoria,40.5958,-89.6631,780.3,"Midcontinent Independent Transmission System Operator, Inc..",1.065185
+66,IL,Havana,Mason,40.2797,-90.08,718,"Midcontinent Independent Transmission System Operator, Inc..",1.18546
+67,IL,Hennepin Power Station,Putnam,41.3028,-89.315,306.3,"Midcontinent Independent Transmission System Operator, Inc..",1.225335
+68,IL,Ingredion Incorporated Argo Plant,Cook,41.7775,-87.8233,54.6,"PJM Interconnection, LLC",0.64405
+69,IL,Joppa Steam,Massac,37.2094,-88.858889,1099.8,"Electric Energy, Inc.",1.15002
+70,IL,Kincaid Generating Station,Christian,39.590556,-89.496389,1319,"PJM Interconnection, LLC",1.086435
+71,IL,Marion,Williamson,37.619747,-88.953114,422,"Midcontinent Independent Transmission System Operator, Inc..",1.428995
+72,IL,Newton,Jasper,38.9361,-88.2781,1234.8,"Midcontinent Independent Transmission System Operator, Inc..",1.041
+73,IL,Powerton,Tazewell,40.5408,-89.6786,1785.6,"PJM Interconnection, LLC",1.284995
+74,IL,Prairie State Generating Station,St Clair,38.279167,-89.666944,1766,"Midcontinent Independent Transmission System Operator, Inc..",1.14707
+75,IL,SIUC,Jackson,37.711944,-89.215,5.1,"Midcontinent Independent Transmission System Operator, Inc..",0.60036
+76,IL,Tate & Lyle,Macon,39.84919,-88.931944,64.8,"Midcontinent Independent Transmission System Operator, Inc..",0.516045
+77,IL,Waukegan,Lake,42.3833,-87.8133,914.7,"PJM Interconnection, LLC",1.19869
+78,IL,Will County,Will,41.6334,-88.0629,1268.8,"PJM Interconnection, LLC",1.24239
+79,IN,A B Brown Generating Station,Posey,37.9053,-87.715,706.8,"Midcontinent Independent Transmission System Operator, Inc..",1.22645
+80,IN,Alcoa Allowance Management Inc,Warrick,37.915,-87.3328,822.8,"Midcontinent Independent Transmission System Operator, Inc..",1.16218
+81,IN,Cayuga,Vermillion,39.9242,-87.4244,1184.9,"Midcontinent Independent Transmission System Operator, Inc..",1.028735
+82,IN,Clifty Creek,Jefferson,38.7378,-85.4206,1303.8,Ohio Valley Electric Corporation,1.10331
+83,IN,Edwardsport Generating Station,Knox,38.8067,-87.2472,948.7,"Midcontinent Independent Transmission System Operator, Inc..",0.85981
+84,IN,F B Culley Generating Station,Warrick,37.9111,-87.3275,414.9,"Midcontinent Independent Transmission System Operator, Inc..",1.30681
+85,IN,Gibson,Gibson,38.372222,-87.765833,3339.5,"Midcontinent Independent Transmission System Operator, Inc..",1.012475
+86,IN,IPL - Petersburg Generating Station,Pike,38.5281,-87.2525,2154.8,"Midcontinent Independent Transmission System Operator, Inc..",1.116295
+87,IN,Merom,Sullivan,39.0694,-87.5108,1080,"Midcontinent Independent Transmission System Operator, Inc..",1.06217
+88,IN,Michigan City Generating Station,LaPorte,41.7208,-86.9086,680,"Midcontinent Independent Transmission System Operator, Inc..",1.1343
+89,IN,R Gallagher,Floyd,38.2636,-85.8381,600,"Midcontinent Independent Transmission System Operator, Inc..",1.09953
+90,IN,R M Schahfer Generating Station,Jasper,41.2164,-87.0261,2201.4,"Midcontinent Independent Transmission System Operator, Inc..",1.301155
+91,IN,Rockport,Spencer,37.9256,-87.0372,2600,"PJM Interconnection, LLC",1.047755
+92,IN,Whitewater Valley,Wayne,39.8028,-84.8953,93.9,"PJM Interconnection, LLC",1.401605
+93,KS,Holcomb,Finney,37.9308,-100.9725,348.7,Southwest Power Pool,1.177225
+94,KS,Jeffrey Energy Center,Pottawatomie,39.286453,-96.117231,2160,Southwest Power Pool,1.15543
+95,KS,La Cygne,Linn,38.3481,-94.6456,1598.9,Southwest Power Pool,1.128965
+96,KS,Lawrence Energy Center,Douglas,39.0072,-95.269167,604,Southwest Power Pool,1.17578
+97,KS,Nearman Creek,Wyandotte,39.1681,-94.6975,671,Southwest Power Pool,1.204955
+98,KY,D B Wilson,Ohio,37.4497,-87.0806,509.4,"Midcontinent Independent Transmission System Operator, Inc..",1.205335
+99,KY,E W Brown,Mercer,37.78831,-84.71257,1747.7,LG&E and KU Services Company as agent for Louisville Gas and Electric Company and Kentucky Utilities,1.103335
+100,KY,East Bend,Boone,38.9036,-84.8514,772,"PJM Interconnection, LLC",1.15588
+101,KY,Elmer Smith,Daviess,37.7942,-87.0608,445.3,LG&E and KU Services Company as agent for Louisville Gas and Electric Company and Kentucky Utilities,1.143835
+102,KY,Ghent,Carroll,38.7497,-85.035,2225.9,LG&E and KU Services Company as agent for Louisville Gas and Electric Company and Kentucky Utilities,1.040935
+103,KY,H L Spurlock,Mason,38.7,-83.8181,1608.5,"PJM Interconnection, LLC",0.943725
+104,KY,HMP and L Station 2,Henderson,37.6469,-87.5028,405,"Midcontinent Independent Transmission System Operator, Inc..",1.3255
+105,KY,John S. Cooper,Pulaski,36.9981,-84.5919,344,"PJM Interconnection, LLC",1.12116
+106,KY,Mill Creek,Jefferson,38.0525,-85.9103,1717.2,LG&E and KU Services Company as agent for Louisville Gas and Electric Company and Kentucky Utilities,1.07105
+107,KY,Paradise,Muhlenberg,37.2608,-86.9783,3718.2,Tennessee Valley Authority,0.7406
+108,KY,R D Green,Webster,37.6461,-87.5,586,"Midcontinent Independent Transmission System Operator, Inc..",1.178745
+109,KY,Shawnee,McCracken,37.1517,-88.775,1750,Tennessee Valley Authority,1.271825
+110,KY,Trimble County,Trimble,38.5847,-85.4117,2594.1,LG&E and KU Services Company as agent for Louisville Gas and Electric Company and Kentucky Utilities,0.932395
+111,LA,Big Cajun 2,Pointe Coupee,30.7261,-91.3692,2632.9,"Midcontinent Independent Transmission System Operator, Inc..",1.137645
+112,LA,Brame Energy Center,Rapides,31.395,-92.716667,1707.3,"Midcontinent Independent Transmission System Operator, Inc..",1.16465
+113,LA,Dolet Hills Power Station,DeSoto,32.030556,-93.569167,720.7,"Midcontinent Independent Transmission System Operator, Inc..",1.129215
+114,MD,AES Warrior Run,Allegany,39.595171,-78.745333,229,"PJM Interconnection, LLC",0.83808
+115,MD,Brandon Shores,Anne Arundel,39.18,-76.5389,1370,"PJM Interconnection, LLC",1.167205
+116,MD,Chalk Point,Prince Georges,38.5444,-76.6861,2553,"PJM Interconnection, LLC",1.094475
+117,MD,Dickerson,Montgomery,39.2097,-77.4644,933,"PJM Interconnection, LLC",1.15006
+118,MD,Herbert A Wagner,Anne Arundel,39.1781,-76.5268,1058.5,"PJM Interconnection, LLC",1.14257
+119,MD,Morgantown,Charles,38.3592,-76.9767,1548,"PJM Interconnection, LLC",1.02757
+120,MI,Belle River,St Clair,42.7756,-82.495,1664.4,"Midcontinent Independent Transmission System Operator, Inc..",1.085235
+121,MI,Dan E Karn,Bay,43.644996,-83.840074,1946.3,"Midcontinent Independent Transmission System Operator, Inc..",1.24927
+122,MI,Eckert Station,Ingham,42.71839,-84.55808,375,"Midcontinent Independent Transmission System Operator, Inc..",1.454535
+123,MI,Erickson,Eaton,42.692222,-84.657222,154.7,"Midcontinent Independent Transmission System Operator, Inc..",1.37276
+124,MI,J B Sims,Ottawa,43.0706,-86.235,80,"Midcontinent Independent Transmission System Operator, Inc..",1.058945
+125,MI,J H Campbell,Ottawa,42.910296,-86.20074,1579.4,"Midcontinent Independent Transmission System Operator, Inc..",1.107035
+126,MI,Monroe,Monroe,41.8906,-83.3464,3293.1,"Midcontinent Independent Transmission System Operator, Inc..",1.08968
+127,MI,MSC Sebewaing,Huron,43.741111,-83.447222,2.5,"Midcontinent Independent Transmission System Operator, Inc..",0.58618
+128,MI,Neenah Paper Munising Mill,Alger,46.4094,-86.6443,6.2,"Midcontinent Independent Transmission System Operator, Inc..",0.60347
+129,MI,Presque Isle,Marquette,46.5789,-87.395,624.7,"Midcontinent Independent Transmission System Operator, Inc..",1.329225
+130,MI,River Rouge,Wayne,42.2739,-83.1119,944,"Midcontinent Independent Transmission System Operator, Inc..",1.15049
+131,MI,St. Clair,St Clair,42.7642,-82.4719,1928.6,"Midcontinent Independent Transmission System Operator, Inc..",1.147165
+132,MI,TES Filer City Station,Manistee,44.217299,-86.28905,323,"Midcontinent Independent Transmission System Operator, Inc..",1.013585
+133,MI,Trenton Channel,Wayne,42.1217,-83.1808,775.5,"Midcontinent Independent Transmission System Operator, Inc..",1.21855
+134,MN,Allen S King,Washington,45.03,-92.7786,598.4,"Midcontinent Independent Transmission System Operator, Inc..",1.098155
+135,MN,American Crystal Sugar Crookston,Polk,47.76468,-96.633375,6.5,"Midcontinent Independent Transmission System Operator, Inc..",1.113609455
+136,MN,American Crystal Sugar East Grand Forks,Polk,47.927202,-97.007153,7.5,"Midcontinent Independent Transmission System Operator, Inc..",1.113609455
+137,MN,American Crystal Sugar Moorhead,Clay,46.9026,-96.76112,5,Southwest Power Pool,1.113609455
+138,MN,Archer Daniels Midland Mankato,Blue Earth,44.187066,-93.99242,10.5,"Midcontinent Independent Transmission System Operator, Inc..",0.60582
+139,MN,Boswell Energy Center,Itasca,47.2611,-93.6528,1073.3,"Midcontinent Independent Transmission System Operator, Inc..",1.17526
+140,MN,Hibbing,St Louis,47.4294,-92.935,35.9,"Midcontinent Independent Transmission System Operator, Inc..",0.466495
+141,MN,Hoot Lake,Otter Tail,46.290641,-96.043252,138.2,"Midcontinent Independent Transmission System Operator, Inc..",1.281855
+142,MN,Northshore Mining Silver Bay Power,Lake,47.286573,-91.260531,131.6,"Midcontinent Independent Transmission System Operator, Inc..",0.967875
+143,MN,Sherburne County,Sherburne,45.3808,-93.8931,2469.3,"Midcontinent Independent Transmission System Operator, Inc..",1.05852
+144,MN,Southern Minnesota Beet Sugar,Renville,44.796405,-95.179787,7.5,"Midcontinent Independent Transmission System Operator, Inc..",0.60396
+145,MO,Asbury,Jasper,37.361315,-94.58926,231.5,Southwest Power Pool,1.17859
+146,MO,Hawthorn,Jackson,39.1306,-94.4778,1046.2,Southwest Power Pool,0.96373
+147,MO,Iatan,Platte,39.4472,-94.98,1725,Southwest Power Pool,0.99592
+148,MO,John Twitty Energy Center,Greene,37.151706,-93.38804,603,Southwest Power Pool,1.177365
+149,MO,Labadie,Franklin,38.562244,-90.837686,2389.4,"Midcontinent Independent Transmission System Operator, Inc..",1.029915
+150,MO,Meramec,St Louis,38.4017,-90.3358,1041,"Midcontinent Independent Transmission System Operator, Inc..",1.113609455
+151,MO,New Madrid Power Plant,New Madrid,36.5147,-89.5617,1300,"Associated Electric Cooperative, Inc.",0.95803
+152,MO,Rush Island,Jefferson,38.131248,-90.263157,1242,"Midcontinent Independent Transmission System Operator, Inc..",0.997015
+153,MO,Sikeston,Scott,36.8791,-89.6209,261,Southwestern Power Administration,1.03859
+154,MO,Sioux,St Charles,38.915479,-90.290247,1099.4,"Midcontinent Independent Transmission System Operator, Inc..",1.1021
+155,MO,Thomas Hill Energy Center,Randolph,39.5522,-92.6381,1181.7,"Associated Electric Cooperative, Inc.",1.077765
+156,MS,Daniel Electric Generating Plant,Jackson,30.5322,-88.5553,2229,"Southern Company Services, Inc. - Trans",0.596855
+157,MS,Red Hills Generation Facility,Choctaw,33.3761,-89.2183,513.7,Tennessee Valley Authority,1.35171
+158,MT,Colstrip,Rosebud,45.8831,-106.614,2363.4,NorthWestern Energy (NWMT),1.150635
+159,MT,Colstrip Energy LP,Rosebud,45.9752,-106.6547,46.1,NorthWestern Energy (NWMT),1.448195
+160,MT,Hardin Generating Station,Big Horn,45.7578,-107.6,115.7,NorthWestern Energy (NWMT),1.54302
+161,MT,Lewis & Clark,Richland,47.6785,-104.15665,68.6,"Midcontinent Independent Transmission System Operator, Inc..",1.43149
+162,MT,Sidney MT Plant,Richland,47.717222,-104.135556,4,NorthWestern Energy (NWMT),0.49583
+163,MT,Western Sugar Cooperative - Billings,Yellowstone,45.765346,-108.499232,1.5,NorthWestern Energy (NWMT),0.59895
+164,NC,Asheville,Buncombe,35.4731,-82.5417,1423.5,Duke Energy Progress East,1.02806
+165,NC,Belews Creek,Stokes,36.2811,-80.0603,2491.2,Duke Energy Carolinas,0.96179
+166,NC,Cliffside,Cleveland,35.22,-81.7594,2540.5,Duke Energy Carolinas,0.96472
+167,NC,"Edgecombe Genco, LLC",Edgecombe,36.037318,-77.753345,114.8,"PJM Interconnection, LLC",0.78372
+168,NC,G G Allen,Gaston,35.1897,-81.0122,1148.4,Duke Energy Carolinas,1.167545
+169,NC,Marshall,Catawba,35.5975,-80.9658,2119,Duke Energy Carolinas,1.02562
+170,NC,Mayo,Person,36.5278,-78.8917,763.2,Duke Energy Progress East,1.276125
+171,NC,Roxboro,Person,36.4833,-79.0731,2574.5,Duke Energy Progress East,1.08661
+172,NC,University of NC Chapel Hill,Orange,35.9069,-79.0617,56,Duke Energy Carolinas,0.63102
+173,ND,American Crystal Sugar Drayton,Pembina,48.593158,-97.17608,6,"Midcontinent Independent Transmission System Operator, Inc..",1.113609455
+174,ND,American Crystal Sugar Hillsboro,Traill,47.437562,-97.06311,13.3,"Midcontinent Independent Transmission System Operator, Inc..",1.113609455
+175,ND,Antelope Valley,Mercer,47.370542,-101.83566,954,Southwest Power Pool,1.180655
+176,ND,Coal Creek,McLean,47.377743,-101.157058,1217.6,"Midcontinent Independent Transmission System Operator, Inc..",1.01935
+177,ND,Coyote,Mercer,47.221447,-101.815722,450,"Midcontinent Independent Transmission System Operator, Inc..",1.225005
+178,ND,Leland Olds,Mercer,47.280769,-101.321213,656,Southwest Power Pool,1.227285
+179,ND,Milton R Young,Oliver,47.065854,-101.213093,734,"Midcontinent Independent Transmission System Operator, Inc..",1.229625
+180,ND,R M Heskett,Morton,46.8669,-100.8836,291,"Midcontinent Independent Transmission System Operator, Inc..",1.144165
+181,ND,Spiritwood Station,Stutsman,46.926423,-98.499713,106.2,"Midcontinent Independent Transmission System Operator, Inc..",0.676345
+182,NE,Archer Daniels Midland Columbus,Platte,41.416442,-97.286328,71.4,Southwest Power Pool,0.841735
+183,NE,Archer Daniels Midland Lincoln,Lancaster,40.866463,-96.614486,7.9,Southwest Power Pool,0.61628
+184,NE,Gerald Gentleman Station,Lincoln,41.0808,-101.1408,1362.6,Southwest Power Pool,1.04171
+185,NE,Gerald Whelan Energy Center,Adams,40.580872,-98.312437,324.3,Southwest Power Pool,1.202745
+186,NE,Lon D Wright Power Plant,Dodge,41.4281,-96.4623,213.2,Southwest Power Pool,0.915285
+187,NE,Nebraska City Station,Otoe,40.6214,-95.7764,1389.6,Southwest Power Pool,1.0686
+188,NE,North Omaha Station,Douglas,41.32909,-95.94466,644.7,Southwest Power Pool,1.1826
+189,NE,Platte,Hall,40.854765,-98.348222,109.8,Southwest Power Pool,1.312705
+190,NE,Sheldon,Lancaster,40.5589,-96.7847,228.7,Southwest Power Pool,1.19931
+191,NE,Western Sugar Coop - Scottsbluff,Scotts Bluff,41.85887,-103.63438,5,Southwest Power Pool,10.00301
+192,NH,Merrimack,Merrimack,43.1411,-71.4692,496.4,ISO New England Inc.,1.316565
+193,NJ,B L England,Cape May,39.2908,-74.6364,804.6,"PJM Interconnection, LLC",1.25665
+194,NJ,Carneys Point,Salem,39.693494,-75.485811,285,"PJM Interconnection, LLC",0.852235
+195,NJ,Logan Generating Plant,Gloucester,39.7928,-75.406667,242.3,"PJM Interconnection, LLC",1.27634
+196,NM,Escalante,McKinley,35.4159,-108.082,257,Western Area Power Administration - Rocky Mountain Region,1.138805
+197,NM,Four Corners Steam Elec Station,San Juan,36.69,-108.4814,2269.6,Arizona Public Service Company,1.123235
+198,NM,San Juan,San Juan,36.8006,-108.4386,1848,Public Service Company of New Mexico,1.2758
+199,NV,North Valmy,Humboldt,40.881317,-117.151605,567,Nevada Power Company,1.11888
+200,NV,TS Power Plant,Eureka,40.7461,-116.5297,409.6,Nevada Power Company,1.127435
+201,NY,"Cayuga Operating Company, LLC",Tompkins,42.6028,-76.6336,322.5,New York Independent System Operator,1.11874
+202,NY,Somerset Operating Company  (Kintigh),Niagara,43.358889,-78.604722,655.1,New York Independent System Operator,1.00625
+203,OH,Avon Lake Power Plant,Lorain,41.504453,-82.054619,873.1,"PJM Interconnection, LLC",0.982465
+204,OH,Cardinal,Jefferson,40.2522,-80.6486,1880.4,"PJM Interconnection, LLC",1.03158
+205,OH,Conesville,Coshocton,40.1842,-81.8811,2174.8,"PJM Interconnection, LLC",1.137885
+206,OH,Dover,Tuscarawas,40.520066,-81.46815,53.6,"PJM Interconnection, LLC",1.72447
+207,OH,Gen J M Gavin,Gallia,38.9347,-82.1158,2600,"PJM Interconnection, LLC",0.98826
+208,OH,Kyger Creek,Gallia,38.9144,-82.1289,1086.5,Ohio Valley Electric Corporation,1.123615
+209,OH,Miami Fort Power Station,Hamilton,39.1128,-84.8036,1444,"PJM Interconnection, LLC",1.007445
+210,OH,Painesville,Lake,41.7265,-81.254,55.5,"PJM Interconnection, LLC",1.731305
+211,OH,W H Sammis,Jefferson,40.5317,-80.6319,2468.1,"PJM Interconnection, LLC",1.191715
+212,OH,W H Zimmer Generating Station,Clermont,38.8675,-84.2289,1425.6,"PJM Interconnection, LLC",0.960885
+213,OH,Wausau Paper Middletown,Butler,39.519989,-84.406153,7.5,"PJM Interconnection, LLC",0.578065
+214,OK,"AES Shady Point, LLC",Le Flore,35.1931,-94.6458,350,Southwest Power Pool,1.358675
+215,OK,Hugo,Choctaw,34.0158,-95.3206,1196,Southwest Power Pool,1.29522
+216,OK,Muskogee,Muskogee,35.76135,-95.28732,1889,Southwest Power Pool,1.199335
+217,OK,Muskogee Mill,Muskogee,35.7322,-95.2939,114,Southwest Power Pool,0.574285
+218,OK,Northeastern,Rogers,36.4317,-95.7008,1950.5,Southwest Power Pool,0.839665
+219,OK,Sooner,Noble,36.45307,-97.05279,2088,Southwest Power Pool,1.11529
+220,OR,Boardman,Morrow,45.693182,-119.808819,642.2,Portland General Electric Company,1.286675
+221,PA,Bruce Mansfield,Beaver,40.6348,-80.4159,2741.1,"PJM Interconnection, LLC",1.15968
+222,PA,"Brunner Island, LLC",York,40.096111,-76.6962,1624.2,"PJM Interconnection, LLC",1.01156
+223,PA,Cambria Cogen,Cambria,40.474167,-78.7014,98,"PJM Interconnection, LLC",1.19201
+224,PA,Cheswick,Allegheny,40.5383,-79.7906,637,"PJM Interconnection, LLC",1.179205
+225,PA,Colver Power Project,Cambria,40.55,-78.8,118,"PJM Interconnection, LLC",1.34768
+226,PA,Conemaugh,Indiana,40.3842,-79.0611,1963,"PJM Interconnection, LLC",1.024325
+227,PA,Ebensburg Power Company,Cambria,40.455,-78.7472,57.6,"PJM Interconnection, LLC",1.78306
+228,PA,Gilberton Power Company,Schuylkill,40.7903,-76.1983,88.4,"PJM Interconnection, LLC",1.481525
+229,PA,Homer City,Indiana,40.512825,-79.196107,2012,"PJM Interconnection, LLC",1.146675
+230,PA,Keystone,Armstrong,40.6604,-79.3411,1883.2,"PJM Interconnection, LLC",1.02046
+231,PA,"Montour, LLC",Montour,41.0714,-76.6672,1775.1,"PJM Interconnection, LLC",1.04476
+232,PA,Mt. Carmel Cogeneration,Northumberland,40.811189,-76.452951,47.3,"PJM Interconnection, LLC",1.947025
+233,PA,Northampton Generating Plant,Northampton,40.6917,-75.4792,134.1,"PJM Interconnection, LLC",1.00336
+234,PA,Panther Creek Energy Facility,Carbon,40.8556,-75.8781,94,"PJM Interconnection, LLC",1.296495
+235,PA,Scrubgrass Generating Plant,Venango,41.2691,-79.8134,94.7,"PJM Interconnection, LLC",1.583145
+236,PA,Seward,Indiana,40.40625,-79.03366,803.2,"PJM Interconnection, LLC",1.11866
+237,PA,St. Nicholas Cogeneration Project,Schuylkill,40.8222,-76.1736,99.2,"PJM Interconnection, LLC",1.89233
+238,PA,Wheelabrator - Frackville,Schuylkill,40.782377,-76.176184,48,"PJM Interconnection, LLC",1.616765
+239,PA,"WPS Westwood Generation, LLC",Schuylkill,40.6191,-76.45,36,"PJM Interconnection, LLC",2.240955
+240,SC,Cope Station,Orangeburg,33.3644,-81.03,417.3,South Carolina Electric & Gas Company,0.8603
+241,SC,Cross,Berkeley,33.371506,-80.113235,2390.1,South Carolina Public Service Authority,1.1202
+242,SC,Wateree,Richland,33.8264,-80.6228,771.8,South Carolina Electric & Gas Company,1.01751
+243,SC,Williams,Berkeley,33.0158,-79.9297,713.5,South Carolina Electric & Gas Company,0.96189
+244,SC,Winyah,Georgetown,33.33184,-79.357236,1260,South Carolina Public Service Authority,1.211205
+245,SD,Big Stone,Grant,45.303652,-96.510067,451,"Midcontinent Independent Transmission System Operator, Inc..",1.12663
+246,TN,Bull Run,Anderson,36.0211,-84.1567,950,Tennessee Valley Authority,1.126235
+247,TN,Cumberland,Stewart,36.3903,-87.6539,2600,Tennessee Valley Authority,1.066995
+248,TN,Eastman Chemical Company,Sullivan,36.5219,-82.5431,194.3,"PJM Interconnection, LLC",0.466185
+249,TN,Gallatin,Sumner,36.3156,-86.4006,1918.4,Tennessee Valley Authority,1.168475
+250,TN,Kingston,Roane,35.8992,-84.5194,1700,Tennessee Valley Authority,1.26349
+251,TX,Coleto Creek,Goliad,28.7128,-97.214167,622.4,"Electric Reliability Council of Texas, Inc.",1.12059
+252,TX,H W Pirkey Power Plant,Harrison,32.4607,-94.4852,721,Southwest Power Pool,1.26489
+253,TX,Harrington Station,Potter,35.29816,-101.747187,1080,Southwest Power Pool,1.11972
+254,TX,J K Spruce,Bexar,29.309722,-98.3203,1444,"Electric Reliability Council of Texas, Inc.",1.089045
+255,TX,Limestone,Limestone,31.4219,-96.2525,1849.8,"Electric Reliability Council of Texas, Inc.",1.11101
+256,TX,Martin Lake,Rusk,32.2606,-94.5706,3179.6,"Electric Reliability Council of Texas, Inc.",1.157855
+257,TX,Oak Grove,Robertson,31.1803,-96.4866,3397,"Electric Reliability Council of Texas, Inc.",1.08101
+258,TX,Sam Seymour,Fayette,29.9172,-96.7506,1690,"Electric Reliability Council of Texas, Inc.",1.15089
+259,TX,San Miguel,Atascosa,28.7044,-98.4775,410,"Electric Reliability Council of Texas, Inc.",1.51549
+260,TX,Sandy Creek Energy Station,McLennan,31.474378,-96.957149,1008,"Electric Reliability Council of Texas, Inc.",1.048565
+261,TX,Tolk Station,Lamb,34.186494,-102.56999,1135.8,Southwest Power Pool,1.04626
+262,TX,Twin Oaks,Robertson,31.091925,-96.69503,949.2,"Electric Reliability Council of Texas, Inc.",1.265245
+263,TX,W A Parish,Fort Bend,29.4828,-95.6311,4008.4,"Electric Reliability Council of Texas, Inc.",0.98585
+264,TX,Welsh Power Plant,Titus,33.05522,-94.839993,1674,Southwest Power Pool,1.18509
+265,UT,Bonanza,Uintah,40.0864,-109.2844,609.5,PacifiCorp - East,1.11585
+266,UT,Hunter,Emery,39.1747,-111.0289,1577.2,PacifiCorp - East,1.071425
+267,UT,Huntington,Emery,39.3792,-111.0781,1037.3,PacifiCorp - East,1.07109
+268,UT,Intermountain,Millard,39.509731,-112.58018,1640,Los Angeles Department of Water and Power,1.00115
+269,UT,Sunnyside Cogen Associates,Carbon,39.5472,-110.3917,58.1,PacifiCorp - East,1.27148
+270,VA,Birchwood Power Facility,King George,38.2667,-77.3147,258.3,"PJM Interconnection, LLC",1.128255
+271,VA,Chesterfield Power Station,Chesterfield,37.3822,-77.3833,1799.5,"PJM Interconnection, LLC",0.829955
+272,VA,City Point Energy Center,Hopewell City,37.2939,-77.2697,114.8,"PJM Interconnection, LLC",0.60828
+273,VA,Clover Power Station,Halifax,36.869,-78.704,848,"PJM Interconnection, LLC",1.14726
+274,VA,Mecklenburg Power Station,Mecklenburg,36.6,-78.53,139.8,"PJM Interconnection, LLC",1.295925
+275,VA,"Spruance Genco, LLC",Richmond City,37.4556,-77.4308,229.6,"PJM Interconnection, LLC",0.640555
+276,VA,Virginia City Hybrid Energy Center,Wise,36.916389,-82.338055,668,"PJM Interconnection, LLC",0.97154
+277,WA,Centralia,Lewis,46.755938,-122.859764,1781.8,Bonneville Power Administration,1.24216
+278,WI,Biron Mill,Wood,44.43,-89.78,61.6,"Midcontinent Independent Transmission System Operator, Inc..",0.78168
+279,WI,Columbia,Columbia,43.4864,-89.4203,1112,"Midcontinent Independent Transmission System Operator, Inc..",1.187965
+280,WI,Edgewater (4050),Sheboygan,43.715142,-87.705863,833.7,"Midcontinent Independent Transmission System Operator, Inc..",1.14842
+281,WI,Elm Road Generating Station,Milwaukee,42.8492,-87.8336,1402.6,"Midcontinent Independent Transmission System Operator, Inc..",1.1005
+282,WI,Genoa,Vernon,43.5589,-91.2325,345.6,"Midcontinent Independent Transmission System Operator, Inc..",1.14898
+283,WI,J P Madgett,Buffalo,44.303583,-91.912647,387,"Midcontinent Independent Transmission System Operator, Inc..",1.205745
+284,WI,Kaukauna Paper Mill,Outagamie,44.2826,-88.2534,44.6,"Midcontinent Independent Transmission System Operator, Inc..",0.261705
+285,WI,South Oak Creek,Milwaukee,42.8457,-87.8294,1259.6,"Midcontinent Independent Transmission System Operator, Inc..",1.17584
+286,WI,Weston,Marathon,44.8606,-89.6553,1163.4,"Midcontinent Independent Transmission System Operator, Inc..",0.98669
+287,WV,Fort Martin Power Station,Monongalia,39.710833,-79.9275,1152,"PJM Interconnection, LLC",1.00856
+288,WV,Grant Town Power Plant,Marion,39.561831,-80.163138,95.7,"PJM Interconnection, LLC",1.49649
+289,WV,Harrison Power Station,Harrison,39.384167,-80.3325,2052,"PJM Interconnection, LLC",1.00075
+290,WV,John E Amos,Putnam,38.4731,-81.8233,2932.6,"PJM Interconnection, LLC",1.055925
+291,WV,Longview Power,Monongalia,39.707893,-79.958974,807.5,"PJM Interconnection, LLC",0.95892
+292,WV,Mitchell (WV),Marshall,39.8297,-80.8153,1632.6,"PJM Interconnection, LLC",1.12202
+293,WV,Morgantown Energy Facility,Monongalia,39.6397,-79.960556,68.9,"PJM Interconnection, LLC",0.91423
+294,WV,Mount Storm Power Station,Grant,39.2008,-79.2636,1680.9,"PJM Interconnection, LLC",1.06086
+295,WV,Mountaineer (1301),Mason,38.9794,-81.9344,1300,"PJM Interconnection, LLC",1.04809
+296,WV,Pleasants Power Station,Pleasants,39.366667,-81.294444,1368,"PJM Interconnection, LLC",1.039435
+297,WY,Dave Johnston,Converse,42.8378,-105.7769,922.2,PacifiCorp - East,1.215785
+298,WY,Dry Fork Station,Campbell,44.388889,-105.460833,483.7,Western Area Power Administration - Rocky Mountain Region,1.126085
+299,WY,General Chemical,Sweetwater,41.5933,-109.7542,30,PacifiCorp - East,0.52018
+300,WY,Genesis Alkali,Sweetwater,41.621667,-109.811944,41,PacifiCorp - East,0.519575
+301,WY,Jim Bridger,Sweetwater,41.7378,-108.7875,2441.9,PacifiCorp - East,1.096275
+302,WY,Laramie River,Platte,42.108889,-104.8825,1710,Western Area Power Administration - Rocky Mountain Region,1.211515
+303,WY,Naughton,Lincoln,41.7581,-110.5983,832,PacifiCorp - East,1.175325
+304,WY,Neil Simpson II,Campbell,44.2856,-105.3833,130,Western Area Power Administration - Rocky Mountain Region,1.39391
+305,WY,Wygen I,Campbell,44.2858,-105.3833,90,Western Area Power Administration - Rocky Mountain Region,1.29954
+306,WY,Wygen II,Campbell,44.2919,-105.3811,95,Western Area Power Administration - Rocky Mountain Region,1.27645
+307,WY,Wygen III,Campbell,44.2919,-105.3806,116,Western Area Power Administration - Rocky Mountain Region,1.24746
+308,WY,Wyodak,Campbell,44.290128,-105.381482,402.3,PacifiCorp - East,1.32694
