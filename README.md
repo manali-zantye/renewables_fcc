@@ -7,17 +7,13 @@ The user will also have to download an excel workbook containing the complete we
 ## Overview
 [main.py](main.py) implements the two-stage optimization algorithm to determine optimal system design and operation through the following 5 steps:
 
-### Step 0: 
-Obtain the time-series data for electricity price, solar and wind capacity factors for the selected power plant.
+Step 0: Obtain the time-series data for electricity price, solar and wind capacity factors for the selected power plant.
 
-### Step 1:
-Calculate parameter vector and formulate original scenario tree.
+Step 1: Calculate parameter vector and formulate original scenario tree.
 
-### Step 2: 
-Specify scenario reduction accuracy
+Step 2: Specify the desired scenario reduction accuracy.
 
-### Step 3:
-Perform scenario reduction using the code in [scen_red](scen_red) and obtained reduced scenario data.
+Step 3: Perform scenario reduction using [my_SR_code.gms](my_SR_code.gms) in [scen_red](scen_red) and obtained reduced scenario data.
 
-### Step 4:
+Step 4:
 
