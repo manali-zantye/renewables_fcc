@@ -15,5 +15,7 @@ Step 2: Specify the desired scenario reduction accuracy.
 
 Step 3: Perform scenario reduction using [my_SR_code.gms](scen_red/my_SR_code.gms) in [scen_red](scen_red) and obtained reduced scenario data.
 
-Step 4:
+Step 4: Use reduced scenario data to obtain optimal system design using [main.gms](red_opti/main.gms) in [red_opti](red_opti).
+
+Step 5: Fix the design decisions and solve with original dataset to obtain optimal operation using [main.gms](orig_opti/main.gms) in [orig_opti](orig_opti).
 
