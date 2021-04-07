@@ -13,7 +13,7 @@ Step 1: Calculate parameter vector and formulate original scenario tree.
 
 Step 2: Specify the desired scenario reduction accuracy.
 
-Step 3: Perform scenario reduction using [scen_red/my_SR_code.gms](my_SR_code.gms) in [scen_red](scen_red) and obtained reduced scenario data.
+Step 3: Perform scenario reduction using [my_SR_code.gms](scen_red/my_SR_code.gms) in [scen_red](scen_red) and obtained reduced scenario data.
 
 Step 4:
 
