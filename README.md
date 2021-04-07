@@ -7,4 +7,5 @@ The user will also have to download an excel workbook containing the complete we
 ## Overview
 [main.py](main.py) implements the two-stage optimization algorithm to determine optimal system design and operation through the following 5 steps:
 
-### Step 0: Get time-series data for electricity price, solar and wind capacity factors
+### Step 0: 
+Obtain the time-series data for electricity price, solar and wind capacity factors for the selected power plant.
