@@ -9,3 +9,15 @@ The user will also have to download an excel workbook containing the complete we
 
 ### Step 0: 
 Obtain the time-series data for electricity price, solar and wind capacity factors for the selected power plant.
+
+### Step 1:
+Calculate parameter vector and formulate original scenario tree.
+
+### Step 2: 
+Specify scenario reduction accuracy
+
+### Step 3:
+Perform scenario reduction using the code in [scen_red](scen_red) and obtained reduced scenario data.
+
+### Step 4:
+
