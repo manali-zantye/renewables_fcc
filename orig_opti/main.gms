@@ -1,5 +1,4 @@
 option minlp = baron;
-
 option optcr = 1e-4;
 option optca = 1e-4;
 $offdigit
@@ -37,7 +36,6 @@ Sets IB(m,mm) "set of blocks mm from which there is energy input to block m"
 
 Positive variables 
             	CC_total "Total Capital cost of project ($)"
-            	
             	CC(m) "cap cost in $"
             	
             CC_t "capital cost of solvent tanks ($)"
@@ -95,7 +93,6 @@ cf_renew(m,t)/
 $include cap_fac.txt
 /,
 
-
 G_s(t) "Hourly direct normal irradiation of solar in W/m2"/
 $include solar_rad.txt
 /,
@@ -148,13 +145,8 @@ Scalar
     T_rep_in "csp inlet T for rep case in C" /200/,
     T_boil_in "csp inlet T for reboiler case in C" /45/,
     delta_TS "T_ms - T_is: constant delta T for hot oil temp from CSP" /80/,
-    L_st "land cost in $/m2" /[2554/4046.86]/,
-    U_st "land utilization of solar thermal techn CHECK!! in %" /0.8/,
     
-    L_pv "area occupied by Pv panels in m2 per MW of capacity" /[8*4046.86]/,
-    
-*    eor_price "price of CO2 in eor market ($/ton)" /35/
-    
+    L_pv "area occupied by Pv panels in m2 per MW of capacity" /[8*4046.86]/
     Price_rampg "unit ramping cost in $/deltaMW" /2/,
     
     
@@ -180,7 +172,7 @@ Scalar
 *Scrubber and Stripper data
 	gamma_A "CO2 removal rate of scrubber" /0.90/
 	gmin	 "Min power output in MW"
-    lfmin "Min load fac for coal power plant" /0.2/
+    	lfmin "Min load fac for coal power plant" /0.2/
 	ra_max	"Max rate of CO2 absorption" /1/
 	rd_max	"Max rate of CO2 desorption" /1.25/
 	delta_g_ramp	"Max ramping rate (MW/hr)" 
@@ -192,8 +184,6 @@ Scalar
 
 *Wind power
 	eeta_EB "Electricity to heat conversion efficiency of electric boiler" /0.96/
-	
-*	z_st /1/
     orig_scen "original number of total scenarios or time steps" /8760/
 ;
 
@@ -216,7 +206,6 @@ $include tax_carbon.gms
 /
 
 cc_capt "total capital costs of capture in $"
-
 co_capt "$/kW cost of capture in 2002 units(Rao,Rubin 07)" /810/
 
 cepi_02 /395.6/
@@ -254,7 +243,6 @@ Variables
 
 Binary variables
      z_st
-     
      y_capt "for selection of capture system"
     ;
 
@@ -274,8 +262,6 @@ equations
 	omcostfixed
     omcostvar
     eorsaleeq(t)
-	
-
     cap_tanks
 	cap_boiler
 	cap_boiler_max
@@ -283,16 +269,11 @@ equations
 	cap_total
     varvolbal1(t)
     varvolbal2(t)
-	
-	
-
 	gineq(m,t)
 	gouteq(m,t)
 	boilerbal(t)
 	boilermaxcap(t)
     maxtrans(t)
-
-
 	st1(t)
 	st5(t)
 	gouteq_st(t)
@@ -302,11 +283,6 @@ equations
     CO2result1
     CO2result2
     sztoarea
-
-
-
-	
-	
 	CO2rateeq(t)
 	Costeq(t)
 	Costeq1(t)
@@ -317,18 +293,15 @@ equations
 	Rampcons4(t)
 	Rampcons5(t)
 	Rampcons6(t)
-
     emminteq(t)
 	Grossemeq(t)
 	Scrubemeq(t)
 	Absbal(t)
 	Compbal(t)
 	Desbal(t)
-	
 	ventemeq(t)
 	captsel1(t)
 	captsel2(t)
-
     om_fixone(m)
     cap_ren(m)
     ren_pout(m,t)
@@ -338,72 +311,48 @@ equations
 objeq.. NPV =e= (-CC_total + (CC_total*R_tax/(r_disc*t_dp))*(1 -  1/(power((1+r_disc),t_dp))) + PF_net*((1/r_disc) - (1/(r_disc*(power((1+r_disc),t_lf))))))/(1e6);
 
 scenprof(t)$(ord(t) ne card(t)).. PF(t) =e= Rev_spot(t) + Rev_contract + eor_sale(t) - CO2cost(t) - Gen_cost(t) - Storage_cost(t)  - ramp_cost(t)/time_period(t) - OM_var(t);
-
 grossprof.. PF_gro =e= sum(t$(ord(t) ne card(t)),time_period(t)*PF(t)) - OM_fixed;
-
 profiteq.. PF_net =e= (1 - R_tax)*PF_gro;
 
 **********Operational profit eqs******************
 Spoteq(t)$(ord(t) ne card(t)).. Rev_spot(t)  =e= (g_in('g',t) - g_contract)*Price_spot(t);
-
 Spoteq1(t)$(ord(t) ne card(t)).. g_in('g',t) =g= g_contract;
-
 CO2costeq(t)$(ord(t) ne card(t)).. co2cost(t) =e= E_gN(t)*Price_CO2;
-
 Gencosteq(t)$(ord(t) ne card(t)).. Gen_cost(t) =e= Cg1(t);
-
 Storageeq(t)$(ord(t) ne card(t)).. Storage_cost(t) =e=  E_gS(t)*Price_TS;
-
 eorsaleeq(t)$(ord(t) ne card(t)).. eor_sale(t) =e=  E_gS(t)*eor_price;
-
 
 rampcosteq1(t)$((ord(t) ne card(t)) and (ord(t) ne (card(t)-1))).. ramp_cost(t) =g= Price_rampg*(g_out('cl',t+1) - g_out('cl',t));
 rampcosteq2(t)$((ord(t) ne card(t)) and (ord(t) ne (card(t)-1))).. ramp_cost(t) =g= Price_rampg*(g_out('cl',t) - g_out('cl',t+1));
-
 omcostvar(t)$(ord(t) ne card(t)).. OM_var(t) =e= sum(m$ren(m),g_out(m,t)*OM_var_one(m));
-
 om_fixone(m)$(ren(m)).. OM_fix_one(m) =e= OM_fixed_one(m)*sz(m);
-
 omcostfixed.. OM_fixed =e= sum(m$ren(m),OM_fix_one(m));
 
 **********Capital cost equations**************
 
 cap_ren(m)$(ren(m) and (ord(m) ne 3) ).. CC(m) =e= CO(m)*sz(m);
-
 cap_tanks.. CC_t =e= 2*Sa_max*CO_t;
-
 cap_boiler.. CC_b =e= CO_b*nc_b;
-
 cap_boiler_max.. nc_b =l= sum(m$ren(m), sz(m));
-
 cap_st.. CC('st') =e= A_st*(1e6)*CO('st');
-
 cap_total.. CC_total =e=  sum(m$ren(m), CC(m)) + cc_b + (cc_t + cc_capt)*y_capt;
-
 
 *******Energy balance eqs***********************
 gineq(m,t)$(ord(t) ne card(t)).. g_in(m,t) =e= sum(mm$IB(m,mm), g1(mm,m,t));
-
 gouteq(m,t)$((ord(m) ne 3) and (ord(t) ne card(t))).. g_out(m,t) =e= sum(mm$JB(m,mm), g1(m,mm,t));
-
 gouteq_st(t)$(ord(t) ne card(t)).. g_out('st',t) =e= z_st*(g1('st','g',t) + g1('st','a',t) + g1('st','c',t) + g1('st','b',t)) + (1 - z_st)*g1('st','d',t);
-
 energybal(t)$(ord(t) ne card(t)).. sum(m$sor(m),g_out(m,t)) =e= sum(m$sks(m),g_in(m,t)) + g_in('b',t)*(1 - (eeta_EB*eeta_te));
 
 *********Coal system eqs********************************************
 
 Costeq1(t)$(ord(t) ne card(t)).. Cg(t)*eeta_g(t) =e= Cg0*mu_G0;
-
 Costeq(t)$(ord(t) ne card(t)).. Cg1(t) =e= Cg(t)*g_out('cl',t);
-
 Rampcons1(t)$((ord(t) ne card(t)) and (ord(t) ne (card(t)-1))).. g_out('cl',t+1) - g_out('cl',t) =l= delta_g_ramp*time_period(t);
 Rampcons2(t)$((ord(t) ne card(t)) and (ord(t) ne (card(t)-1))).. g_out('cl',t+1) - g_out('cl',t) =g= -delta_g_ramp*time_period(t);
-
 maxtrans(t)$(ord(t) ne card(t)).. g_in('g',t) =l= g0;
 
 *******Boiler******
 boilerbal(t)$(ord(t) ne card(t)).. g_out('b',t) =e= g_in('b',t)*(eeta_EB*eeta_te);
-
 boilermaxcap(t)$(ord(t) ne card(t)).. g_in('b',t) =l= nc_b;
 
 *********Renewables pout eqs*******************************
@@ -411,23 +360,16 @@ ren_pout(m,t)$(ren(m) and (ord(m) ne 3) and (ord(t) ne card(t))).. g_out(m,t) =e
 
 *****Solar thermal eqs*************
 st1(t)$(ord(t) ne card(t)).. q_st(t) =e= A_st*(eeta_opt*G_s(t));
-
 sztoarea.. sz('st') =e= A_st*G_des*eeta_opt*(eeta_rep*z_st + eeta_te*(1 - z_st));
-
 st5(t)$(ord(t) ne card(t)).. g_out('st',t) =e= q_st(t)*eeta_rep*z_st + q_st(t)*eeta_te*(1 - z_st);
 
-
 *****Capture system eqs***********
-
 emminteq(t)$(ord(t) ne card(t)).. eg(t)*eeta_g(t) =e= e_g0*mu_G0;
-
 Grossemeq(t)$(ord(t) ne card(t)).. E_gE(t) =e= g_out('cl',t)*eg(t);
-
 Scrubemeq(t)$(ord(t) ne card(t)).. E_gS(t) =e= rc(t)*g0*e_g0*gamma_A;
-
 Netemissioneq(t)$(ord(t) ne card(t)).. E_gN(t) =e= E_gE(t) - ra(t)*g0*e_g0*gamma_A;
-
 CO2rateeq(t)$(ord(t) ne card(t)).. rd(t) =e= rc(t);
+ventemeq(t)$(ord(t) ne card(t)).. E_gV(t) =e= E_gE(t) - ra(t)*g0*e_g0;
 
 Rampcons3(t)$((ord(t) ne card(t)) and (ord(t) ne (card(t)-1))).. ra(t + 1) - ra(t) =l= delta_ra_max*time_period(t);
 Rampcons4(t)$((ord(t) ne card(t)) and (ord(t) ne (card(t)-1))).. ra(t + 1) - ra(t) =g= -delta_ra_max*time_period(t);
@@ -437,7 +379,6 @@ Rampcons6(t)$((ord(t) ne card(t)) and (ord(t) ne (card(t)-1))).. rd(t + 1) - rd(
 Absbal(t)$(ord(t) ne card(t)).. E0*mu_A0*ra(t) =e= g_in('a',t);
 Desbal(t)$(ord(t) ne card(t)).. E0*mu_C0*rc(t) =e= g_in('c',t);
 Compbal(t)$(ord(t) ne card(t)).. E0*mu_D0*rd(t) =e= g_in('d',t);
-
 
 ******Solvent storage bal********
 Totalvolads(t)$( ord(t) ne card(t) ).. Sa_final(t+1) =e= Sa_final(t) + (g0*7300*e_g0/(600*eg0_ref))*(ra(t) - rd(t))*time_period(t);
@@ -449,27 +390,18 @@ Sd_final.fx('1') = (g0*7300*e_g0/(600*eg0_ref));
 Sa_final.fx(t)$(ord(t) eq card(t)) = (g0*7300*e_g0/(600*eg0_ref));
 Sd_final.fx(t)$(ord(t) eq card(t)) = (g0*7300*e_g0/(600*eg0_ref));
 
-
 *******Constraint on CO2 emissions*******
-
 CO2result1.. E_gtot =e= sum(t$(ord(t) ne card(t)),E_gN(t)*time_period(t));
-
 CO2result2.. out_tot =e= sum(t,g_in('g',t)*time_period(t));
-
 
 *Upper and lower bounds
 
 g_out.lo('cl',t) = gmin;
 g_out.up('cl',t) = g0;
-
 ra.lo(t) = 0;
-
 rd.lo(t) = 0;
-
-
 captsel1(t)$( ord(t) ne card(t) ).. ra(t) =l= ra_max*y_capt;
 captsel2(t)$( ord(t) ne card(t) ).. rd(t) =l= rd_max*y_capt;
-
 
 Sa_max.fx = 2*(g0*7300*e_g0/(600*eg0_ref));
 
@@ -479,22 +411,13 @@ A_st.fx = 0;
 z_st.fx = 1;
 
 eeta_g.fx(t) = 0.44;
-
-*New set of capture constraints
-ventemeq(t)$(ord(t) ne card(t)).. E_gV(t) =e= E_gE(t) - ra(t)*g0*e_g0;
-
-
-
 *fixing design decisions
 $include "fix_design.gms";
 
 
 option reslim = 172800;
 option limrow = 60;
-
 model flexible /all/;
-
-
 solve flexible using MINLP maximizing NPV;
 
 
