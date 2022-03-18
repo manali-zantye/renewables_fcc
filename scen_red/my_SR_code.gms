@@ -15,7 +15,6 @@ stage( n  ,'t3') = ord(n) > %num_scen%+1 and ord(n) <= 2*%num_scen%+1;
 stage( n  ,'t4') = ord(n) > 2*%num_scen%+1 and ord(n) <= 3*%num_scen%+1;
 
 leaf(n) = stage(n,'t4');
-
 ancestor(n,'1')$stage(n,'t2') = yes;
 ancestor(n,n-%num_scen%)$stage(n,'t3') = yes;
 ancestor(n,n-%num_scen%)$stage(n,'t4') = yes;
@@ -24,10 +23,7 @@ display stage
 display leaf
 display ancestor
 
-
-
 * Random variables (demand) and probabilities
-
 Parameter price(n) node demands
 /
 $include nodes_demands.gms
@@ -44,7 +40,6 @@ $include nodes_probabilities.gms
 price('1') = 1;
 prob('1')  = 1;
 
-
 * Initialize ScenRed2
 $set sr2prefix my_SR_problem
 $libInclude scenred2
@@ -59,12 +54,11 @@ putClose fopts 'order           1'
 * Scenred2 method choice
 ScenRedParms('construction_method') = 2;
 ScenRedParms('reduction_method'   ) = 2;
-
-$include SR_category.gms
+$include SR_category.gms;
 
 ScenRedParms('out_scen') = 1;
 
-ScenRedParms('sroption'           ) = 1;
+ScenRedParms('sroption') = 1;
 
 
 $libInclude runscenred2 %sr2prefix% scen_red n ancestor prob ancestor prob price
