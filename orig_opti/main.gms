@@ -35,50 +35,39 @@ Sets IB(m,mm) "set of blocks mm from which there is energy input to block m"
 
 
 Positive variables 
-            	CC_total "Total Capital cost of project ($)"
-            	CC(m) "cap cost in $"
-            	
+            CC_total "Total Capital cost of project ($)"
+            CC(m) "cap cost in $"	
             CC_t "capital cost of solvent tanks ($)"
             CC_b "capital cost of electric boiler ($)"
-            
             sz(m) "max cap in MW"
             nc_b "max capacity of electric boiler in MW"
-            A_st "collector area of solar thermal technology in km2"
-            
+            A_st "collector area of solar thermal technology in km2"          
             Sa_max "rich/lean solvent tank volume in m3"
-
             g1(m,mm,t) "electrical energy flow in MW from block m to block mm at hour t"
             g_in(m,t) "total electrical energy flow in block m at hour t"
             g_out(m,t) "total electrical energy flow from block m at hour t"
             q_st(t) "solar thermal output in MW"
-
             OM_fixed
             om_fix_one(m)
             OM_var(t)
-            
             Cg1(t) "Generation cost at hour t in dollars"
             out_tot
             E_gtot "we need this variable to ensure that total net co2 emissions are positive"
             ramp_cost(t) "ramping cost in hour t in dollars"
-            
-            	
-	           ra(t) "CO2 adsorption rate in scrubber at hour t"
-		   rd(t) "CO2 desorption rate in stripper at hour t"
-		   rc(t) "CO2 compression rate at hour t"
-		   Cg(t) "Generation cost per unit of gross output at hour t in dollars per MWh"
-		   eeta_g(t) "Gross generation efficiency of coal plant at hour t"
-
-		   Sa_final(t)	"Volume in rich solvent tank at time t in m3"
-		   Sd_final(t)	"Volume in lean solvent tank at time t in m3"
-		   eg(t) 	"CO2 emission intensity per unit of gross power output in tons/MWh"
-		   Gen_cost(t)     "Electricity gen costs in $"
-		   Storage_cost(t)  "CO2 storage and transport cost in $"
-		   eor_sale(t) "revenue from selling captured co2 for enhanced oil recovery in $"
-		   
-	           S_tot(t)
-		   DailyCO2int
-		   
-		   E_gN(t) "Net CO2 emissions at hour t in tons"
+            ra(t) "CO2 adsorption rate in scrubber at hour t"
+	    rd(t) "CO2 desorption rate in stripper at hour t"
+	   rc(t) "CO2 compression rate at hour t"
+	   Cg(t) "Generation cost per unit of gross output at hour t in dollars per MWh"
+	   eeta_g(t) "Gross generation efficiency of coal plant at hour t"
+	   Sa_final(t)	"Volume in rich solvent tank at time t in m3"
+	   Sd_final(t)	"Volume in lean solvent tank at time t in m3"
+	   eg(t) 	"CO2 emission intensity per unit of gross power output in tons/MWh"
+	   Gen_cost(t)     "Electricity gen costs in $"
+	   Storage_cost(t)  "CO2 storage and transport cost in $"
+	   eor_sale(t) "revenue from selling captured co2 for enhanced oil recovery in $"
+	   S_tot(t)
+	   DailyCO2int
+	   E_gN(t) "Net CO2 emissions at hour t in tons"
            E_gV(t) "CO2 emissions vented out before going to capture system at hour t in tons"
 ;
 
@@ -128,30 +117,22 @@ Scalar
     r_disc "annual discount rate" /0.1/,
     t_dp "useful project life in years" /20/,
     t_lf "project lifetime in yrs" /25/,
-    
-
     co_t "capital cost of one tank in $/m3" /300/,
     co_b "capital cost of one boiler in $/MW" /[88*1000]/,
-    
     G_des "design point useful DNI for CSP in W/m2" /850/,
     eeta_rep "thermal to electrical conv efficiency for repowering case of CSP" /0.39/,
     eeta_te "thermal to electricity conversion factor" /0.183/,
     eeta_opt "CSP collector optical efficiency" /0.65/,
-    
     c_1s "solar thermal heat loss coeff in W/m2K" /0/,
     c_2s "solar thermal heat loss coeff in W/m2K2" /0.0004/,
     T_rep_mean "csp mean T for rep case in C" /237.5/,
     T_boil_mean "csp mean T for reboiler case in C" /87.5/,
     T_rep_in "csp inlet T for rep case in C" /200/,
     T_boil_in "csp inlet T for reboiler case in C" /45/,
-    delta_TS "T_ms - T_is: constant delta T for hot oil temp from CSP" /80/,
-    
+    delta_TS "T_ms - T_is: constant delta T for hot oil temp from CSP" /80/,  
     L_pv "area occupied by Pv panels in m2 per MW of capacity" /[8*4046.86]/
     Price_rampg "unit ramping cost in $/deltaMW" /2/,
-    
-    
-	Price_genL "Average long term contract price in $/MWh" /51.7/
-
+    Price_genL "Average long term contract price in $/MWh" /51.7/
     Price_TS "Transport and storage costs of CO2 in $/ton: Mantripragada et al. (2019)" /4.6/
 
 *Base case data
@@ -160,14 +141,11 @@ Scalar
 	mu_D0 "Base case efficiency penalty due to desorption" /0.04/
 	mu_C0 "Base case efficiency penalty due to compression" /0.02/
 	mu_G0 "Base case gross efficiency" /0.44/
-
 	E0 	"Base case total power output in MW"
 	alpha_A "Constant in net power output eqn for adsorption"
 	alpha_D "Constant in net power output eqn for desorption"
 	Cg0	"Base case electricity gen costs in $/MWh" /31/
-
 	eg0_ref /0.76/
-
 
 *Scrubber and Stripper data
 	gamma_A "CO2 removal rate of scrubber" /0.90/
