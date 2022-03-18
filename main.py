@@ -127,7 +127,6 @@ def write_gams_file_main(num_scen, data_scenarios, time_periods):
         f.write("w.%d %s\n" % ((j+1),str(data_scenarios[j,1])))
     f.close()
     
-
     f = open("red_opti/cap_fac.txt","a")
     for j in range(num_scen):
         f.write("sp.%d %s\n" % ((j+1),str(data_scenarios[j,2])))
@@ -196,7 +195,6 @@ results_df = pd.DataFrame({'y_capt': [scal_var_gams.loc['y_capt'].astype(int)],
                            'npv': [scal_var_gams.loc['NPV'].astype(float)],
                            'sz_b': [scal_var_gams.loc['nc_b'].astype(float)]})
 
-
 #write designs to fix_design.gms file
 f = open("red_opti/fix_design.gms", "w+")
 f.write("y_capt.fx = %d;\n" %(results_df['y_capt']))
@@ -227,12 +225,10 @@ orig_data['price'].to_csv('orig_opti/price.txt', header=None, sep=' ')
 orig_data['time_periods'].to_csv('orig_opti/time_periods.txt', header=None, sep=' ')
 orig_data['solar_rad'].to_csv('orig_opti/solar_rad.txt', header=None, sep=' ')
 
-
 f = open('orig_opti/cap_fac.txt', 'w+')
 for i in (orig_data.index):
         f.write('w.' + str(i) + ' ' + str(orig_data.loc[i,'W_capfac']) + '\n')
 f.close()
-
 
 f = open('orig_opti/cap_fac.txt', 'a')
 for i in (orig_data.index):
